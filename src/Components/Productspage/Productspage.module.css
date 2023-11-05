@@ -1,0 +1,5 @@
+.bgimage {
+  background-image: url(../../../public//Assets/unsplash__image-bg.png);
+  background-size: cover;
+  background-position: 100% 100%;
+}
