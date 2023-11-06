@@ -1,15 +1,15 @@
 "use client";
 import React from "react";
-import lampimage from "../../../public/Assets/street_light_controler.png";
-import gateimage from "../../../public/Assets/gateway_png.png";
-import cloudimage from "../../../public/Assets/cloud_based management.png";
-import usersimage from "../../../public/Assets/users_png.png";
-import Evaluationimage from "../../../public/Assets/evaluation_png.png";
+import lampimage from "../../../../public/Assets/street_light_controler.png";
+import gateimage from "../../../../public/Assets/gateway_png.png";
+import cloudimage from "../../../../public/Assets/cloud_based management.png";
+import usersimage from "../../../../public/Assets/users_png.png";
+import Evaluationimage from "../../../../public/Assets/evaluation_png.png";
 import Image from "next/image";
-const Workpage = () => {
+const Workpage: React.FC = () => {
   return (
     <>
-      <section className="bg-gradient-to-tr from-[#8fb3cc46] to-[#FFF] w-full flex items-center justify-center overflow-hidden relative pt-[5rem] lg:pt-[100px] pl-[5px] lg:pl-[146px] py-[15rem]">
+      <section className="bg-white w-full flex items-center justify-center overflow-hidden relative pt-[5rem] lg:pt-[100px] pl-[5px] lg:pl-[146px] py-[15rem]">
         <div className="min-h-[100vh] lg:h-[100vh] w-[80vw]">
           <div className="h-[220px]">
             <div className="w-[5vw] bg-gradient-to-r from-[#00386B] to-[#FFFFFF00] pt-[14.5px] pr-[0px] pb-[14.5px] pl-[40px]">

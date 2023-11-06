@@ -1,6 +1,6 @@
 .TextGif {
   position: relative;
-  background-image: url(../../../public/Assets/TextGif.gif);
+  background-image: url(../../../../public/Assets/TextGif.gif);
   /* width: 80vw; */
   /* height: 100vh; */
   background-size: cover;

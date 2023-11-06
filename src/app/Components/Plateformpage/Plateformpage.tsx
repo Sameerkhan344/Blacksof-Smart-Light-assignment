@@ -1,12 +1,11 @@
-"use client";
 import React from "react";
 import Image from "next/image";
-import plateformimage from "../../../public/Assets/plateform-img.png";
+import plateformimage from "../../../../public/Assets/plateform-img.png";
 
-const Plateformpage = () => {
+const Plateformpage: React.FC = () => {
   return (
     <>
-      <section className="w-full min-h-screen flex items-center justify-center overflow-hidden relative py-[50px] lg:pt-[80px] pl-[0px] md:pl-[50px] lg:pl-[0px]">
+      <section className="bg-white text-[#000] w-full min-h-screen flex items-center justify-center overflow-hidden relative py-[50px] lg:pt-[80px] pl-[0px] md:pl-[50px] lg:pl-[0px]">
         <div className="min-h-full w-[80vw] sm:w-[70vw] md:w-[60vw] lg:w-[80vw] xl:w-[80vw]">
           <div className="w-full flex items-center justify-center">
             <h1 className="text-center text-[30px] lg:text-[40px] md:text-[40px] font-[400] leading-[30px] sm:leading-[40px] md:leading-[40px] lg:leading-[40px] xl:leading-[48px] tracking-[0.48px] sm:w-[100vw] md:w-[100vw] lg:w-[45vw]">
@@ -14,7 +13,7 @@ const Plateformpage = () => {
             </h1>
           </div>
           <div className="gap-[20px] md:gap-[50px] md:flex md:flex-col md:py-[5rem]">
-            <div className="flex items-center justify-evenly lg:justify-between flex-col md:flex-row  lg:flex-row gap-3 lg:gap-0">
+            <div className="flex items-center justify-evenly lg:justify-between flex-col md:flex-row lg:flex-row gap-3 lg:gap-0">
               <div className="w-[90vw] lg:w-[25vw] flex lg:block items-center lg:items-end flex-col lg:flex-row gap-3 lg:gap-0">
                 <div>
                   <Image src={plateformimage} alt="" />
@@ -36,7 +35,7 @@ const Plateformpage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-evenly lg:justify-between flex-col md:flex-row  lg:flex-row gap-3 lg:gap-0">
+            <div className="flex items-center justify-evenly lg:justify-between flex-col md:flex-row lg:flex-row gap-3 lg:gap-0">
               <div className="w-[90vw] lg:w-[25vw] flex lg:block items-center lg:items-end flex-col lg:flex-row gap-3 lg:gap-0">
                 <div>
                   <Image src={plateformimage} alt="" />
@@ -59,7 +58,7 @@ const Plateformpage = () => {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-evenly lg:justify-between flex-col md:flex-row  lg:flex-row gap-3 lg:gap-0">
+            <div className="flex items-center justify-evenly lg:justify-between flex-col md:flex-row lg:flex-row gap-3 lg:gap-0">
               <div className="w-[90vw] lg:w-[25vw] flex lg:block items-center lg:items-end flex-col lg:flex-row gap-3 lg:gap-0">
                 <div>
                   <Image src={plateformimage} alt="" />
