@@ -28,7 +28,7 @@ const Header: React.FC = () => {
             <a href="#" className="flex items-center">
               <Image src={wifiImage} className="h-8 mr-3" alt="wifiLogo" />
 
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
                 smart Lights
               </span>
             </a>
