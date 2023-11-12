@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
               <a href="#" className="flex items-center mb-4 sm:mb-0">
                 <Image
                   src={wifiImage}
-                  className="h-8 mr-3"
+                  className="h-8 w-8 mr-3"
                   alt="Flowbite Logo"
                 />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">

@@ -26,10 +26,10 @@ const Header: React.FC = () => {
         <nav className="bg-gradient-to-tr from-[#002547] to-[#00050A]">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" className="flex items-center">
-              <Image src={wifiImage} className="h-8 mr-3" alt="wifiLogo" />
+              <Image src={wifiImage} className="h-8 w-8 mr-3" alt="wifiLogo" />
 
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-                smart Lights
+                Smart Lights
               </span>
             </a>
             <div
