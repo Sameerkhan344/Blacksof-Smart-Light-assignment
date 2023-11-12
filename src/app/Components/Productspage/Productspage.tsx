@@ -1,12 +1,25 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import lightimage from "../../../../public/Assets/lightimage.png";
+import arrowimage from "../../../../public/Assets/icon_png.png";
+import leftarrow from "../../../../public/Assets/leftarrow.svg";
+import rightarrow from "../../../../public/Assets/rightarrow.svg";
 import background from "./Productspage.module.css";
+// import Slider from "../Slider/Slider";
 import Fade from "../Slider/Fade";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+
+import "swiper/css/thumbs";
+import "swiper/css/effect-coverflow";
+import "swiper/css/mousewheel";
+import "swiper/css/autoplay";
+import "swiper/css/effect-fade";
+import "swiper/css/grid";
 
 const Home: React.FC = () => {
   return (
